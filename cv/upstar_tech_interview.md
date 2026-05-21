@@ -7,95 +7,93 @@
 ## НАВІГАЦІЯ ПО БЛОКАХ ІНТЕРВ'Ю
 
 ### Блок 1 (0-10 хв): Знайомство і досвід
-- Розкажіть про себе → рядок 319
-- Чому ця роль / UPSTARS → рядок 336
-- Чому підходите на Vue/SSR/SEO → рядок 348
-- Ownership → рядок 1330
-- Без дизайнера/PM → рядок 1336
-- Керування командою → рядок 1354
-- Що значить senior → рядок 1438
-- Product-minded → рядок 1422
+- [Розкажіть про себе](#1-розкажіть-про-себе)
+- [Чому ця роль / UPSTARS](#2-чому-ця-роль--чому-upstars)
+- [Чому підходите на Vue/SSR/SEO](#3-чому-ви-підходите-на-vue--ssr--seo-роль)
+- [Ownership](#a4-найбільший-приклад-ownership-на-фронтенді)
+- [Без дизайнера/PM](#a5-як-ти-працюєш-коли-немає-дизайнера-і-pm)
+- [Керування командою](#a6-розкажи-про-досвід-керування-командою)
+- [Що значить senior](#a11-що-значить-для-тебе-senior-frontend-engineer)
+- [Product-minded](#a10-що-для-тебе-product-minded-engineer)
 
 ### Блок 2 (10-25 хв): Vue / Nuxt / TypeScript
-- Composition vs Options API → рядок 1482
-- Структура composables → рядок 1500
-- Composable vs Pinia → рядок 1520
-- Pinia в SSR → рядок 1536
-- SSR-safe код → рядок 1556
-- Lifecycle hooks сервер/клієнт → рядок 1581
-- useAsyncData vs useFetch → рядок 1603
-- useFetch vs $fetch → рядок 1446
-- Route middleware → рядок 1625
-- Plugins → рядок 1645
-- ClientOnly → рядок 1665
-- Error boundaries → рядок 1687
-- Suspense / Teleport → рядок 1705
-- shallowRef → рядок 1458
-- Тяжкі списки → рядок 1468
-- Nuxt Layers → рядок 2774 (секція Vue додаткові)
-- Nitro → рядок 2774 (секція Vue додаткові)
-- TypeScript strict → рядок 1727
-- Generics → рядок 1739
-- unknown vs any → рядок 1751
-- type vs interface → рядок 1767
-- API типізація / DTO → рядок 1782
-- Discriminated unions → рядок 1798
-- Runtime validation → рядок 1830
+- [Composition vs Options API](#b1-чим-composition-api-кращий-за-options-api-для-великих-проєктів)
+- [Структура composables](#b2-як-ти-структуруєш-composables-коли-виносиш-логіку-з-компонента)
+- [Composable vs Pinia](#b2b-а-коли-краще-composable-а-коли-pinia-store)
+- [Pinia в SSR](#b3-як-працює-pinia-в-ssr-як-уникнути-витоку-даних-між-користувачами)
+- [SSR-safe код](#b4-що-таке-ssr-safe-код-що-може-піти-не-так-якщо-про-це-не-думати)
+- [Lifecycle hooks сервер/клієнт](#b5-які-lifecycle-hooks-працюють-на-сервері-а-які-тільки-в-браузері)
+- [useAsyncData vs useFetch](#b6-useasyncdata-і-usefetch--яка-різниця-і-коли-що-використовувати)
+- [useFetch vs $fetch](#a12-чим-usefetch-відрізняється-від-fetch)
+- [Route middleware](#b7-як-працюють-route-middleware-в-nuxt-3)
+- [Plugins](#b8-як-працюють-plugins-в-nuxt-3)
+- [ClientOnly](#b11-коли-використовувати-clientonly)
+- [Error boundaries](#b13-як-обробляються-помилки-в-nuxt-що-таке-error-boundaries)
+- [Suspense / Teleport](#b13b-що-таке-suspense-і-teleport-у-vue-3-коли-їх-використовують)
+- [shallowRef](#a13-shallowref--коли-і-навіщо)
+- [Тяжкі списки](#a14-як-оптимізуєш-тяжкі-списки)
+- [Vue/Nuxt додаткові (Layers, Nitro)](#vue-3--nuxt-3--додаткові-часті-питання)
+- [TypeScript strict](#c1-чому-strict-mode-в-typescript-важливий)
+- [Generics](#c2-як-використовуєш-generics-у-composables)
+- [unknown vs any](#c4-яка-різниця-між-unknown-і-any-чому-unknown-кращий)
+- [type vs interface](#c4b-яка-різниця-між-type-і-interface-коли-що-використовуєш)
+- [API типізація / DTO](#c5-як-ти-типізуєш-api-відповіді)
+- [Discriminated unions](#c6-що-таке-discriminated-unions-де-використовуєш)
+- [Runtime validation](#c9-typescript-ж-тільки-на-етапі-компіляції-працює-як-захищаєшся-від-неправильних-даних-в-runtime)
 
 ### Блок 3 (25-45 хв): SSR / Rendering / Hydration — ЯДРО
-- SSR vs SSG vs SPA → рядок 390
-- Стратегія для iGaming дзеркал → рядок 449
-- Hydration mismatch → рядок 409
-- Дебаг hydration → рядок 429
-- SSR мікросервіс для 5 доменів → рядок 1049 (Блок 3 симуляції)
-- Кешування SSR → рядок 641
-- Cache-Control заголовки → рядок 2007
-- Event loop і SSR → рядок 1987
-- Express middleware → рядок 1969
+- [SSR vs SSG vs SPA](#4-ssr-vs-ssg-vs-spa--коли-що)
+- [Стратегія для iGaming дзеркал](#7-як-обрати-стратегію-рендерингу-для-igaming-дзеркал)
+- [Hydration mismatch](#5-що-спричиняє-hydration-mismatch)
+- [Дебаг hydration](#6-як-дебажити-hydration-mismatch-в-nuxt)
+- [SSR мікросервіс для 5 доменів](#блок-3-ssrrendering-architecture-15-хв)
+- [Кешування SSR](#15-у-вас-5-дзеркал-під-навантаженням--як-ви-організуєте-кешування-щоб-ssr-сервер-не-ліг-і-users-отримували-сторінки-швидко)
+- [Cache-Control заголовки](#h3-які-заголовки-кешування-використовуєш-і-для-чого)
+- [Event loop і SSR](#h2-як-event-loop-впливає-на-ssr-performance)
+- [Express middleware](#h1-як-працює-middleware-в-express-що-важливо-знати-про-порядок-і-обробку-помилок)
 
 ### Блок 4 (45-60 хв): SEO + Multi-domain
-- Canonical / hreflang для 5+ доменів → рядок 467
-- Duplicate content → рядок 483
-- Mirror domains навіщо → рядок 2049
-- Sitemap для 5+ доменів → рядок 1848
-- Noindex → рядок 1872
-- Structured data → рядок 1896
-- Crawling vs indexing → рядок 1919
-- SEO-регресія після деплою → рядок 687
-- Код-рев'ю з SEO-фокусом → рядок 669
+- [Canonical / hreflang для 5+ доменів](#8-як-реалізувати-canonicalhreflang-для-5-доменів)
+- [Duplicate content](#9-як-запобігти-duplicate-content-across-mirror-domains)
+- [Mirror domains навіщо](#i5-mirror-domains--навіщо)
+- [Sitemap для 5+ доменів](#e3-як-організувати-sitemap-для-5-доменів)
+- [Noindex](#e5-коли-ставиш-noindex-і-навіщо)
+- [Structured data](#e6-що-таке-structured-data--schemaorg-і-як-використовуєш-для-igaming)
+- [Crawling vs indexing](#e9-яка-різниця-між-crawling-і-indexing)
+- [SEO-регресія після деплою](#17-після-деплою-google-почав-деіндексувати-сторінки-що-робиш)
+- [Код-рев'ю з SEO-фокусом](#16-як-ти-ревюєш-pr-в-продукті-де-важливі-seo-і-performance)
 
 ### Блок 5 (60-72 хв): Core Web Vitals + Monitoring
-- LCP діагностика → рядок 499
-- INP діагностика → рядок 528
-- CLS → рядок 556
-- CrUX + Lighthouse + Sentry разом → рядок 581
-- Monitoring і alerting → рядок 606
-- Sentry в роботі → рядок 1931
-- Production incident → рядок 1949
+- [LCP діагностика](#10-як-діагностувати-lcp-регресію)
+- [INP діагностика](#11-як-діагностувати-inp-регресію)
+- [CLS](#12-як-боротися-з-cls)
+- [CrUX + Lighthouse + Sentry разом](#13-як-використовувати-crux-lighthouse-і-sentry-разом)
+- [Monitoring і alerting](#14-як-побудувати-performance-monitoring-і-alerting)
+- [Sentry в роботі](#g1-як-ти-використовуєш-sentry-в-роботі)
+- [Production incident](#g8-що-ти-робиш-коли-на-продакшні-щось-зламалось-який-у-тебе-процес)
 
 ### Блок 6 (72-80 хв): Behavioral / Leadership
-- Конфлікт з backend → рядок 2165
-- Нечіткі вимоги + дедлайн → рядок 747
-- Швидкість vs надійність → рядок 769
-- Overengineering → рядок 787
-- KYC під legal deadline → рядок 729
-- Production bug → рядок 2195
-- Менторинг → рядок 2177
+- [Конфлікт з backend](#l1-конфлікт-з-backend--як-вирішували)
+- [Нечіткі вимоги + дедлайн](#20-розкажи-про-ситуацію-коли-у-тебе-були-нечіткі-вимоги-і-жорсткий-дедлайн-одночасно)
+- [Швидкість vs надійність](#21-як-ти-балансуєш-між-швидкістю-доставки-і-надійністю)
+- [Overengineering](#22-як-ти-розумієш-що-рішення-занадто-складне-як-уникаєш-overengineering)
+- [KYC під legal deadline](#19-розкажи-про-досвід-роботи-з-kyc-і-regulated-flows)
+- [Production bug](#l6-production-bug--процес-реакції)
+- [Менторинг](#l4-менторинг--як-проводите)
 
 ### Блок 7 (80-90 хв): Мої питання до UPSTARS
-- 5 питань → рядок 805
+- [5 питань](#23-які-питання-поставити-upstars)
 
 ### Швидкі довідники
-- Vue/Nuxt SSR Cheat Sheet → рядок 817
-- SEO Cheat Sheet → рядок 846
-- Core Web Vitals Cheat Sheet → рядок 862
-- Monitoring Cheat Sheet → рядок 897
-- iGaming Cheat Sheet → рядок 928
-- Gaps / Bridge Answers → рядок 977
-- 10 найсильніших фраз → рядок 1213
-- 5 STAR-історій → рядок 1239
-- JS Core питання → рядок 2740
-- Vue/Nuxt додаткові питання → рядок 2774
+- [Vue/Nuxt SSR Cheat Sheet](#vuenuxt-ssr-cheat-sheet)
+- [SEO Cheat Sheet](#seo-cheat-sheet)
+- [Core Web Vitals Cheat Sheet](#core-web-vitals-cheat-sheet)
+- [Monitoring Cheat Sheet](#monitoring-cheat-sheet)
+- [iGaming Cheat Sheet](#igaming-cheat-sheet)
+- [10 найсильніших фраз](#10-найсильніших-фраз)
+- [5 STAR-історій](#5-star-історій-з-мого-cv-як-розповідати-вголос)
+- [JS Core питання](#javascript-core--ще-питання)
+- [Vue/Nuxt додаткові питання](#vue-3--nuxt-3--додаткові-часті-питання)
 
 ---
 
